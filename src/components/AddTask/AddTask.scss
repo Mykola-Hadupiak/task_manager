@@ -1,0 +1,46 @@
+@import '../../styles/main';
+
+.add-task {
+  width: 710px;
+  background-color: #fff;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DEE2E6;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+  }
+
+  &__main {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 80px;
+  }
+
+  &__option {
+    margin-bottom: 8px;
+
+    @extend %body-text;
+  }
+
+  &__second-main {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__child {
+    flex-grow: 1;
+  }
+
+  &__buttom {
+    padding: 16px 24px;
+    border-top: 1px solid #DEE2E6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+}

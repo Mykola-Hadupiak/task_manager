@@ -1,0 +1,29 @@
+@import './reset';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  color: #152536;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+%body-text {
+  color: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

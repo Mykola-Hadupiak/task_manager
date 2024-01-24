@@ -1,0 +1,26 @@
+.table-row {
+  &-status {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 8px;
+
+
+    &--not-started {
+      background-color: #ABB5BE;
+    }
+
+    &--in-progress {
+      background-color: #CFE2FF;
+      color: #0D6EFD;
+    }
+
+    &--completed {
+      background-color: #D1E7DD;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

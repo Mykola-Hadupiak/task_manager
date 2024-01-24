@@ -1,0 +1,14 @@
+.task-list {
+  width: 1120px;
+
+  &__top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 16px;
+  }
+}
