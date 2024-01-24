@@ -1,9 +1,5 @@
-# React TypeScript Starter Pack
+LINK TO THE SITE
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+The project has logic for using the API (but it is not used, as I do not have such an API).
+I also used react, redux toolkit, bootstrap and other technologies in my project.
+In this application, you can add, delete, change tasks, and search, and all this is stored using localstorage and additionally processed using reducer.
